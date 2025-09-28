@@ -76,35 +76,36 @@ This scenario consists of 3 phases:
 
 
 🚀 Phase 1 – Data Collection and Initial Storage
-🎯 Objective: Set up the foundational infrastructure + collect logs from Fortigate and user Agents
-Steps:
-1) Infrastructure Setup :
-  - Docker + Docker Compose ✅ (Already completed)
-  - Set up the project environment (create directories and repository on Git)
-2) Kafka + Zookeeper Setup
-  - Launch a lightweight Kafka Cluster using Docker Compose
-  - Test producer/consumer connectivity
-3) PostgreSQL and MongoDB Setup
-  - PostgreSQL → For structured data (user, bandwidth, site logs)
-  - MongoDB → For raw JSON logs from Agents
-4) Fortigate Integration
-  - Configure Syslog on Fortigate → Send logs to Kafka or Logstash
-  - Store logs in the database
-5) Agent Installation on User Systems
-  - Install Wazuh Agent or Osquery on a few test systems
-  - Send logs to the central server
-6)Initial Grafana Dashboard
-  - Connect to PostgreSQL
-  - Display Fortigate logs (e.g., User X → Website Y)
+    🎯 Objective: Set up the foundational infrastructure + collect logs from Fortigate and user Agents
+    Steps:
+    1) Infrastructure Setup :
+      - Docker + Docker Compose ✅ (Already completed)
+      - Set up the project environment (create directories and repository on Git)
+    2) Kafka + Zookeeper Setup
+      - Launch a lightweight Kafka Cluster using Docker Compose
+      - Test producer/consumer connectivity
+    3) PostgreSQL and MongoDB Setup
+      - PostgreSQL → For structured data (user, bandwidth, site logs)
+      - MongoDB → For raw JSON logs from Agents
+    4) Fortigate Integration
+      - Configure Syslog on Fortigate → Send logs to Kafka or Logstash
+      - Store logs in the database
+    5) Agent Installation on User Systems
+      - Install Wazuh Agent or Osquery on a few test systems
+      - Send logs to the central server
+    6)Initial Grafana Dashboard
+      - Connect to PostgreSQL
+      - Display Fortigate logs (e.g., User X → Website Y)
 
 
 
 🚀 Phase 2 – Processing and Scheduling
-🎯 Objective: Data analysis and ETL processing
-Steps:
-1) Install and set up Apache Spark (inside Docker)
-2) Install Apache Airflow → For ETL and scheduling
-3) Build a simple pipeline (e.g., nightly aggregation of each user's internet usage)
-4) Store results in PostgreSQL for management reports
+    🎯 Objective: Data analysis and ETL processing
+    Steps:
+    1) Install and set up Apache Spark (inside Docker)
+    2) Install Apache Airflow → For ETL and scheduling
+    3) Build a simple pipeline (e.g., nightly aggregation of each user's internet usage)
+    4) Store results in PostgreSQL for management reports
+
 
 
