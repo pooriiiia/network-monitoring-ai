@@ -46,6 +46,15 @@ Unified dashboard for daily and weekly reporting
   - CI/CD for seamless updates (Git + Docker).
 
 
+
+📊 Expected Output
+Unified Dashboard in Grafana →   
+        . Bandwidth consumption per user/group
+        . Most visited websites
+        . Alerts for suspicious behavior (e.g., a user connecting to multiple suspicious IPs)
+        . Daily/weekly reports for managers
+
+
 # Objectives :
   1) Monitor and analyze user behavior
   2) Review and control bandwidth
