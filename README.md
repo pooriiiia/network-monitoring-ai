@@ -1,6 +1,10 @@
 # network-monitoring-ai
 This project is designed for monitoring, analyzing user behavior, managing bandwidth, and extracting data from Fortigate 60F.
 
+
+# Structure Project :
+
+
 🎯 Project Objectives :
 Monitoring and optimizing network and internet resources for organizational users
 Collecting logs and behavioral data from Fortigate 60F and user systems
@@ -40,9 +44,6 @@ Unified dashboard for daily and weekly reporting
   - Access is secured with a Reverse Proxy (NGINX + SSL).
   - Agents send data to the central server via TLS/SSL.
   - CI/CD for seamless updates (Git + Docker).
-
-# Structure Project :
-
 
 
 # Objectives :
