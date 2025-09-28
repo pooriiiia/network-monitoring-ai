@@ -99,12 +99,12 @@ Steps:
 
 
 🚀 Phase 2 – Processing and Scheduling
-    🎯 Objective: Data analysis and ETL processing
-    Steps:
-    1) Install and set up Apache Spark (inside Docker)
-    2) Install Apache Airflow → For ETL and scheduling
-    3) Build a simple pipeline (e.g., nightly aggregation of each user's internet usage)
-    4) Store results in PostgreSQL for management reports
+🎯 Objective: Data analysis and ETL processing
+Steps:
+1) Install and set up Apache Spark (inside Docker)
+2) Install Apache Airflow → For ETL and scheduling
+3) Build a simple pipeline (e.g., nightly aggregation of each user's internet usage)
+4) Store results in PostgreSQL for management reports
 
 
 
