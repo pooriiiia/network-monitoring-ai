@@ -4,6 +4,8 @@ This project is designed for monitoring, analyzing user behavior, managing bandw
 
 # Structure Project :
 
+------------------------------------------------------
+
 
 🎯 Project Objectives :
 Monitoring and optimizing network and internet resources for organizational users
@@ -11,6 +13,7 @@ Collecting logs and behavioral data from Fortigate 60F and user systems
 Storing and processing data (Batch & Stream)
 Unified dashboard for daily and weekly reporting
 
+------------------------------------------------------
 
 🏗️ Main Components of the Scenario :
 
@@ -38,6 +41,7 @@ Unified dashboard for daily and weekly reporting
       - Grafana → Unified dashboard (real-time + daily/weekly reports)
       - Connection to PostgreSQL, TimescaleDB, and Elasticsearch (optional for search)
 
+------------------------------------------------------
 
 🔐 Security and DevOps
   - All services are executed in Docker Compose.
@@ -54,6 +58,7 @@ Unified Dashboard in Grafana →
   - Alerts for suspicious behavior (e.g., a user connecting to multiple suspicious IPs)
   - Daily/weekly reports for managers
 
+------------------------------------------------------
 
 # Objectives :
   1) Monitor and analyze user behavior
