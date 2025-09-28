@@ -49,10 +49,10 @@ Unified dashboard for daily and weekly reporting
 
 📊 Expected Output
 Unified Dashboard in Grafana →   
-        . Bandwidth consumption per user/group
-        . Most visited websites
-        . Alerts for suspicious behavior (e.g., a user connecting to multiple suspicious IPs)
-        . Daily/weekly reports for managers
+        - Bandwidth consumption per user/group
+        - Most visited websites
+        - Alerts for suspicious behavior (e.g., a user connecting to multiple suspicious IPs)
+        - Daily/weekly reports for managers
 
 
 # Objectives :
