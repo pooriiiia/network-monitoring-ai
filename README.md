@@ -106,5 +106,10 @@ Steps:
 3) Build a simple pipeline (e.g., nightly aggregation of each user's internet usage)
 4) Store results in PostgreSQL for management reports
 
-
+🚀 Phase 3 – Advanced Analysis and AI/ML
+🎯 Objective: Detect suspicious behavior and predict consumption
+Steps:
+1) Design Machine Learning model (Python + Spark MLlib)
+2) Anomaly detection (e.g., a user whose consumption suddenly spikes high)
+3) Implement alerts in Grafana + Slack/Email
 
