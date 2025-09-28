@@ -12,7 +12,6 @@ Includes the following items:
 
 # Structure Project :
 
-<img width="639" height="670" alt="image" src="https://github.com/user-attachments/assets/8c243395-4a69-4b58-b34e-56e67b448c25" />
 
 
 # Objectives :
