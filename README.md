@@ -13,3 +13,10 @@ Includes the following items:
 # Structure Project :
 
 <img width="639" height="670" alt="image" src="https://github.com/user-attachments/assets/8c243395-4a69-4b58-b34e-56e67b448c25" />
+
+
+# Objectives :
+  1) Monitor and analyze user behavior
+  2) Review and control bandwidth
+  3) Generate daily and weekly reports
+  4) Implement AI models for detecting suspicious behavior
