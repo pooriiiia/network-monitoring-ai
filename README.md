@@ -9,4 +9,7 @@ Includes the following items:
   6) Creation of a unified management dashboard
   7) Development of AI-based analysis modules
 
+
 # Structure Project :
+
+<img width="639" height="670" alt="image" src="https://github.com/user-attachments/assets/8c243395-4a69-4b58-b34e-56e67b448c25" />
