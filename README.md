@@ -36,8 +36,11 @@ Visualization Layer
   🔹 Grafana → Unified dashboard (real-time + daily/weekly reports)
   🔹 Connection to PostgreSQL, TimescaleDB, and Elasticsearch (optional for search)
 
-
-
+🔐 Security and DevOps
+  All services are executed in Docker Compose.
+  Access is secured with a Reverse Proxy (NGINX + SSL).
+  Agents send data to the central server via TLS/SSL.
+  CI/CD for seamless updates (Git + Docker).
 
 # Structure Project :
 
