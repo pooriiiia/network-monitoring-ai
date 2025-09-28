@@ -70,6 +70,6 @@ Unified Dashboard in Grafana →
 
 ✅ Project Phases
 This scenario consists of 3 phases:
-  -Phase 1 (Basic) → Collect logs from Fortigate and user Agents → Store in DB → Simple dashboard
-  -Phase 2 (Analytics) → Add Spark and Airflow for advanced processing
-  -Phase 3 (AI/ML) → Analyze abnormal user behavior and predict consumption
+  - Phase 1 (Basic) → Collect logs from Fortigate and user Agents → Store in DB → Simple dashboard
+  - Phase 2 (Analytics) → Add Spark and Airflow for advanced processing
+  - Phase 3 (AI/ML) → Analyze abnormal user behavior and predict consumption
