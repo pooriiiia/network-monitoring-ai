@@ -20,7 +20,6 @@ Unified dashboard for daily and weekly reporting
 Data Sources :
 - Fortigate 60F → Syslog transmission (traffic, web, users)
 - Agent on user systems (e.g., Wazuh/Osquery/Winlogbeat) → Tracks visited websites and running processes
-- File Server (Winlogbeat) → Logs for file access and modifications
     
 Ingestion Layer:
 - Kafka (Streaming) → For real-time log collection
